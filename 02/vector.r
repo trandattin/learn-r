@@ -1,0 +1,11 @@
+#Exercise 2.3
+#a)
+seq(from=5,to=-11,by=-0.3)
+#b)
+seq(from=-11,to=5,by=0.3)
+#c)
+c <- rep(c(-1,3,-5,7,-9),times = 2,each=10)
+sort(c,decreasing=FALSE)
+#d)
+a <- c(seq(6,12),rep(x=5.3,times=3), -3,seq(102,length(c)))
+length(a)
